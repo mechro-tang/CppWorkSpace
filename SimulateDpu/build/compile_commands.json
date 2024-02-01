@@ -1,8 +1,0 @@
-[
-{
-  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build",
-  "command": "F:\\w64devkit\\bin\\g++.exe  @CMakeFiles/SimulateDPU.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\SimulateDPU.dir\\src\\main.cpp.obj -c E:\\workspace\\CppWorkSpace\\SimulateDpu\\src\\main.cpp",
-  "file": "E:/workspace/CppWorkSpace/SimulateDpu/src/main.cpp",
-  "output": "CMakeFiles/SimulateDPU.dir/src/main.cpp.obj"
-}
-]
