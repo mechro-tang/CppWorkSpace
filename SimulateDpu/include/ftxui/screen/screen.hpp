@@ -18,7 +18,7 @@ struct Pixel {
   bool operator==(const Pixel& other) const;
 
   // The graphemes stored into the pixel. To support combining characters,
-  // like: aâƒ¦, this can potentially contain multiple codepoints.
+  // like: aâƒ?, this can potentially contain multiple codepoints.
   std::string character = " ";
 
   // The hyperlink associated with the pixel.
