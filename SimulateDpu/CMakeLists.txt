@@ -1,48 +1,93 @@
 cmake_minimum_required(VERSION 3.1.0)
 
-# ÉèÖÃ±àÒëÆ÷¿ÉÓÃ£¬²»½øĞĞ¼ì²â
+##### ç¼–è¯‘ç¯å¢ƒè®¾ç½® #####
+
+# è®¾ç½®ç¼–è¯‘å™¨å¯ç”¨ï¼Œä¸è¿›è¡Œæ£€æµ‹
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_COMPILER_WORKS  TRUE)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
 
-# ±àÒë¡¢¹¹½¨¹¤¾ßÂ·¾¶£¨µÃÔÚprojectÇ°ÉèÖÃ£© 
-set(CMAKE_GENERATOR     "MinGW Makefiles")                           # Éú³ÉÆ÷
-set(COMPILE_TOOL_PATH   F:/w64devkit/bin)
-set(CMAKE_MAKE_PROGRAM  ${COMPILE_TOOL_PATH}/mingw32-make.exe)
-set(CMAKE_C_COMPILER    ${COMPILE_TOOL_PATH}/gcc.exe)
+# ç¼–è¯‘ã€æ„å»ºå·¥å…·è·¯å¾„ï¼ˆå¾—åœ¨projectå‰è®¾ç½®ï¼‰
+if(CMAKE_HOST_SYSTEM_NAME MATCHES "Windows")
+
+set(CMAKE_GENERATOR     "MinGW Makefiles")                          # ç”Ÿæˆå™¨
+set(COMPILE_TOOL_PATH   F:/w64devkit/bin)                           # ç¼–è¯‘å·¥å…·è·¯å¾„
+set(CMAKE_MAKE_PROGRAM  ${COMPILE_TOOL_PATH}/mingw32-make.exe)      # 
+set(CMAKE_C_COMPILER    ${COMPILE_TOOL_PATH}/gcc.exe)               # Cç¼–è¯‘å·¥å…·
 set(CMAKE_CXX_COMPILER  ${COMPILE_TOOL_PATH}/g++.exe) 
 
-message("CMAKE_MAKE_PROGRAM = ${CMAKE_MAKE_PROGRAM}")
-message("CMAKE_C_COMPILER   = ${CMAKE_C_COMPILER}") 
-message("CMAKE_CXX_COMPILER = ${CMAKE_CXX_COMPILER}")
+elseif(CMAKE_HOST_SYSTEM_NAME MATCHES "Darwin")
 
-project(SimulateDPU VERSION 0.1.0)
+else()
 
-set(CMAKE_CXX_STANDARD 17)
+message(WARNING "Unsupported operation system: ${CMAKE_HOST_SYSTEM_NAME}")
 
-# ÉèÖÃÔ´ÎÄ¼ş
-set(SRC_FILES 
-    ${PROJECT_SOURCE_DIR}/src/main.cpp
-    ${PROJECT_SOURCE_DIR}/src/UserInterface/HomePage.h
-    ${PROJECT_SOURCE_DIR}/src/UserInterface/HomePage.cpp
-)
+endif()
 
-# ÉèÖÃ°üº¬Ä¿Â¼
-include_directories(${PROJECT_SOURCE_DIR}/include/)
-message("include_directories = ${PROJECT_SOURCE_DIR}/include")
+message(STATUS "##### ç¼–è¯‘ç¯å¢ƒè®¾ç½® #####")
+message(STATUS "CMAKE_HOST_SYSTEM_NAME  = ${CMAKE_HOST_SYSTEM_NAME}")
+message(STATUS "CMAKE_MAKE_PROGRAM      = ${CMAKE_MAKE_PROGRAM}")
+message(STATUS "CMAKE_GENERATOR         = ${CMAKE_GENERATOR}")
+message(STATUS "CMAKE_C_COMPILER        = ${CMAKE_C_COMPILER}") 
+message(STATUS "CMAKE_CXX_COMPILER      = ${CMAKE_CXX_COMPILER}")
+message(STATUS "CMAKE_CXX_STANDARD      = C++${CMAKE_CXX_STANDARD}")
 
-set(CMAKE_BUILD_TYPE    "Release") 
-# ÉèÖÃÊä³öÄ¿Â¼
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin)
-add_executable(${PROJECT_NAME} ${SRC_FILES})   
+##### é¡¹ç›®è®¾ç½® #####
 
-# ÉèÖÃÁ´½Ó¿âÄ¿Â¼
-set(LINK_LIBRARIES_PATH ${PROJECT_SOURCE_DIR}/lib/Win64)
-# ÉèÖÃÁ´½Ó¿â
+set(CMAKE_BUILD_TYPE    "Debug")
+project(EmulateDPU LANGUAGES CXX VERSION 0.1.0) 
+
+# è®¾ç½®é“¾æ¥åº“ç›®å½• PROJECT_SOURCE_DIRå¾—åœ¨projectåä½¿ç”¨
+if(CMAKE_HOST_SYSTEM_NAME MATCHES "Windows")
+
+# é“¾æ¥åº“ç›®å½•
+set(LINK_LIBRARIES_PATH ${PROJECT_SOURCE_DIR}/lib/Win64/ftxui-5.0.0-win64/lib)
+# é™æ€åº“éœ€è¦å…¨è·¯å¾„
 set(LINK_LIBRARIES_FILES 
-    ${LINK_LIBRARIES_PATH}/ftxui-component.lib 
+    ${LINK_LIBRARIES_PATH}/ftxui-component.lib
     ${LINK_LIBRARIES_PATH}/ftxui-dom.lib
     ${LINK_LIBRARIES_PATH}/ftxui-screen.lib
 )
 
-target_link_libraries(${PROJECT_NAME} ${LINK_LIBRARIES_FILES})
-message("LINK_LIBRARIES_FILES = ${LINK_LIBRARIES_FILES}")
+elseif(CMAKE_HOST_SYSTEM_NAME MATCHES "Darwin")
+
+endif() 
+
+# ftxuiè·¯å¾„
+set(ftxui_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib/Win64/ftxui-5.0.0-win64/lib/cmake/ftxui)
+find_package(ftxui REQUIRED)
+
+# è®¾ç½®æºæ–‡ä»¶
+set(SRC_FILES 
+    ${PROJECT_SOURCE_DIR}/src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/UserInterface/HomePage.h
+    ${PROJECT_SOURCE_DIR}/src/UserInterface/HomePage.cpp
+) 
+
+
+# è®¾ç½®åŒ…å«ç›®å½•
+include_directories(${PROJECT_SOURCE_DIR}/include)
+# è®¾ç½®é“¾æ¥åº“ç›®å½•
+link_directories(${LINK_LIBRARIES_PATH})
+link_libraries(${LINK_LIBRARIES_FILES})
+
+# è®¾ç½®è¾“å‡ºç›®å½•
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin)
+add_executable(${PROJECT_NAME} ${SRC_FILES})   
+
+target_link_libraries(${PROJECT_NAME} 
+    PRIVATE ftxui::screen
+    PRIVATE ftxui::dom
+    PRIVATE ftxui::component
+    ${LINK_LIBRARIES_FILES}
+)
+
+message(STATUS "##### é¡¹ç›®è®¾ç½® #####")
+message(STATUS "PROJECT_NAME            = ${PROJECT_NAME}")
+message(STATUS "SRC_FILES               = ${SRC_FILES}")
+message(STATUS "include_directories     = ${PROJECT_SOURCE_DIR}/include")
+message(STATUS "link_directories        = ${LINK_LIBRARIES_PATH}")
+message(STATUS "LINK_LIBRARIES_FILES    = ${LINK_LIBRARIES_FILES}")
+message(STATUS "ftxui_DIR               = ${ftxui_DIR}")
+message(STATUS "ftxui_INCLUDE_DIRS      = ${ftxui_INCLUDE_DIRS}")
+message(STATUS "ftxui_LIBS              = ${ftxui_LIBS}")
