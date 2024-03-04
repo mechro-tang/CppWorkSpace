@@ -7,12 +7,8 @@ set(CMAKE_CXX_STANDARD          17)
 set(CMAKE_CXX_STANDARD_REQUIRED  ON)
 set(CMAKE_C_COMPILER_WORKS      TRUE)
 set(CMAKE_CXX_COMPILER_WORKS    TRUE)
-#set(CMAKE_SYSTEM_PROCESSOR      x86_64)
-#set(CMAKE_GENERATOR_PLATFORM    x64)
-
-# 
+ 
 if(CMAKE_HOST_SYSTEM_NAME MATCHES "Windows")    # windows
-
 #!!!!! 设置生成器"MinGW Makefiles"会导致编译失败，默认Unix Makefiles !!!!!#
 #set(CMAKE_GENERATOR     "MinGW Makefiles")                          
 set(COMPILE_TOOL_PATH   F:/w64devkit/bin)                           
@@ -43,35 +39,22 @@ set(CMAKE_BUILD_TYPE    "Release")
 project(EmulateDPU LANGUAGES CXX VERSION 0.1.0) 
 
 # 
-if(CMAKE_HOST_SYSTEM_NAME MATCHES "Windows")
-
-elseif(CMAKE_HOST_SYSTEM_NAME MATCHES "Darwin")
-
-endif() 
-
-# 
 set(SRC_FILES 
     ${PROJECT_SOURCE_DIR}/src/main.cpp
+    ${PROJECT_SOURCE_DIR}/src/jsoncpp.cpp
     ${PROJECT_SOURCE_DIR}/src/UserInterface/HomePage.h
     ${PROJECT_SOURCE_DIR}/src/UserInterface/HomePage.cpp
 ) 
 
-# add ftx-ui
+# add lib ftx-ui
 add_subdirectory(${PROJECT_SOURCE_DIR}/lib/FTXUI-5.0.0)
+#add_subdirectory(${PROJECT_SOURCE_DIR}/lib/jsoncpp-master)
 
-# 
 include_directories(${PROJECT_SOURCE_DIR}/include)
-# 
-link_directories(${LINK_LIBRARIES_PATH})
 
 # 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin)
 add_executable(EmulateDPU ${SRC_FILES})   
-
-target_link_libraries(EmulateDPU 
-    ${LINK_LIBRARIES_FILES}
-    
-)
 
 target_link_libraries(${PROJECT_NAME} 
     ftxui::component
