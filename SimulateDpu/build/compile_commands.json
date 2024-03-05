@@ -1,0 +1,434 @@
+[
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build",
+  "command": "F:/w64devkit/bin/g++.exe  @CMakeFiles/EmulateDPU.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/EmulateDPU.dir/src/main.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/src/main.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/src/main.cpp",
+  "output": "CMakeFiles/EmulateDPU.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build",
+  "command": "F:/w64devkit/bin/g++.exe  @CMakeFiles/EmulateDPU.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/EmulateDPU.dir/src/jsoncpp.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/src/jsoncpp.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/src/jsoncpp.cpp",
+  "output": "CMakeFiles/EmulateDPU.dir/src/jsoncpp.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build",
+  "command": "F:/w64devkit/bin/g++.exe  @CMakeFiles/EmulateDPU.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/EmulateDPU.dir/src/UserInterface/HomePage.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/src/UserInterface/HomePage.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/src/UserInterface/HomePage.cpp",
+  "output": "CMakeFiles/EmulateDPU.dir/src/UserInterface/HomePage.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/screen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/box.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/box.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/screen.dir/src/ftxui/screen/box.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/screen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/color.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/color.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/screen.dir/src/ftxui/screen/color.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/screen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/color_info.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/color_info.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/screen.dir/src/ftxui/screen/color_info.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/screen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/screen.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/screen.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/screen.dir/src/ftxui/screen/screen.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/screen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/string.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/string.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/screen.dir/src/ftxui/screen/string.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/screen.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/terminal.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/screen/terminal.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/screen.dir/src/ftxui/screen/terminal.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/automerge.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/automerge.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/automerge.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/blink.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/blink.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/blink.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/bold.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/bold.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/bold.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/hyperlink.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/hyperlink.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/hyperlink.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/border.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/border.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/border.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/box_helper.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/box_helper.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/box_helper.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/canvas.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/canvas.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/canvas.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/clear_under.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/clear_under.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/clear_under.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/color.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/color.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/color.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/composite_decorator.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/composite_decorator.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/composite_decorator.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/dbox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/dbox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/dbox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/dim.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/dim.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/dim.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flex.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flex.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/flex.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flexbox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flexbox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/flexbox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flexbox_config.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flexbox_config.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_config.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flexbox_helper.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/flexbox_helper.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/flexbox_helper.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/focus.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/focus.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/focus.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/frame.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/frame.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/frame.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/gauge.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/gauge.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/gauge.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/graph.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/graph.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/graph.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/gridbox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/gridbox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/gridbox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/hbox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/hbox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/hbox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/inverted.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/inverted.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/inverted.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/linear_gradient.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/linear_gradient.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/linear_gradient.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/node.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/node.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/node.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/node_decorator.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/node_decorator.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/node_decorator.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/paragraph.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/paragraph.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/paragraph.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/reflect.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/reflect.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/reflect.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/scroll_indicator.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/scroll_indicator.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/scroll_indicator.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/separator.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/separator.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/separator.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/size.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/size.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/size.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/spinner.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/spinner.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/spinner.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/strikethrough.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/strikethrough.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/strikethrough.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/table.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/table.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/table.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/text.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/text.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/text.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/underlined.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/underlined.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/underlined.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/underlined_double.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/underlined_double.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/underlined_double.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/util.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/util.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/util.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/dom.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/vbox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/dom/vbox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/dom.dir/src/ftxui/dom/vbox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/animation.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/animation.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/animation.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/button.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/button.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/button.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/catch_event.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/catch_event.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/catch_event.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/checkbox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/checkbox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/checkbox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/collapsible.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/collapsible.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/collapsible.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/component.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/component.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/component.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/component_options.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/component_options.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/component_options.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/container.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/container.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/container.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/dropdown.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/dropdown.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/dropdown.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/event.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/event.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/event.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/hoverable.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/hoverable.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/hoverable.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/input.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/input.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/input.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/loop.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/loop.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/loop.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/maybe.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/maybe.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/maybe.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/menu.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/menu.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/menu.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/modal.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/modal.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/modal.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/radiobox.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/radiobox.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/radiobox.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/renderer.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/renderer.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/renderer.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/resizable_split.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/resizable_split.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/resizable_split.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/screen_interactive.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/screen_interactive.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/screen_interactive.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/slider.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/slider.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/slider.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/terminal_input_parser.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/terminal_input_parser.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/terminal_input_parser.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/util.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/util.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/util.cpp.obj"
+},
+{
+  "directory": "E:/workspace/CppWorkSpace/SimulateDpu/build/lib/FTXUI-5.0.0",
+  "command": "F:/w64devkit/bin/g++.exe -DFTXUI_MICROSOFT_TERMINAL_FALLBACK -DUNICODE -D_UNICODE @CMakeFiles/component.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj -c E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/window.cpp",
+  "file": "E:/workspace/CppWorkSpace/SimulateDpu/lib/FTXUI-5.0.0/src/ftxui/component/window.cpp",
+  "output": "lib/FTXUI-5.0.0/CMakeFiles/component.dir/src/ftxui/component/window.cpp.obj"
+}
+]

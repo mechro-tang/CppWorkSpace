@@ -1,0 +1,162 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:39 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: F:/w64devkit/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/3.29.0-rc2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "F:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:39 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-fuvu16"
+      binary: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-fuvu16"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-fuvu16'
+        
+        Run Build Command(s): F:/CMake/bin/cmake.exe -E env VERBOSE=1 "" -f Makefile cmTC_da329/fast
+        no such file or directory
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "lib/FTXUI-5.0.0/CMakeLists.txt:147 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-f7qpz8"
+      binary: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-f7qpz8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-f7qpz8'
+        
+        Run Build Command(s): F:/CMake/bin/cmake.exe -E env VERBOSE=1 "" -f Makefile cmTC_db99f/fast
+        no such file or directory
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "lib/FTXUI-5.0.0/CMakeLists.txt:147 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-aub4k6"
+      binary: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-aub4k6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-aub4k6'
+        
+        Run Build Command(s): F:/CMake/bin/cmake.exe -E env VERBOSE=1 "" -f Makefile cmTC_a41a1/fast
+        no such file or directory
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "lib/FTXUI-5.0.0/CMakeLists.txt:147 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-czq5x0"
+      binary: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-czq5x0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-czq5x0'
+        
+        Run Build Command(s): F:/CMake/bin/cmake.exe -E env VERBOSE=1 "" -f Makefile cmTC_622ba/fast
+        no such file or directory
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:136 (try_compile)"
+      - "F:/CMake/share/cmake-3.29/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "lib/FTXUI-5.0.0/CMakeLists.txt:147 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-370dff"
+      binary: "E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-370dff"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/workspace/CppWorkSpace/SimulateDpu/build/CMakeFiles/CMakeScratch/TryCompile-370dff'
+        
+        Run Build Command(s): F:/CMake/bin/cmake.exe -E env VERBOSE=1 "" -f Makefile cmTC_3188a/fast
+        no such file or directory
+        
+      exitCode: 1
+...
