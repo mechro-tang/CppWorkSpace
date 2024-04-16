@@ -1,0 +1,1 @@
+ libprint.a "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/lib/Win64/ftxui-dom.lib" "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/lib/Win64/ftxui-component.lib" "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/lib/Win64/ftxui-screen.lib" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

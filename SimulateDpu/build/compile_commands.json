@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/print.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\print.dir\\src\\print.cpp.obj -c \"C:\\Repositories\\Visual Studio Code\\CppWorkSpace\\SimulateDpu\\src\\print.cpp\"",
+  "file": "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/src/print.cpp",
+  "output": "CMakeFiles/print.dir/src/print.cpp.obj"
+},
+{
+  "directory": "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/Demo.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles\\Demo.dir\\src\\main.cpp.obj -c \"C:\\Repositories\\Visual Studio Code\\CppWorkSpace\\SimulateDpu\\src\\main.cpp\"",
+  "file": "C:/Repositories/Visual Studio Code/CppWorkSpace/SimulateDpu/src/main.cpp",
+  "output": "CMakeFiles/Demo.dir/src/main.cpp.obj"
+}
+]
