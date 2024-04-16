@@ -18,7 +18,7 @@ void HomePage::show()
         ftxui::hbox({
             text("Home Page") | border,
             separator(),
-            text(L"Welcome to the Home Page")
+            text(L"Welcome to the Home Page")  | border
         });
 
     // фад╩

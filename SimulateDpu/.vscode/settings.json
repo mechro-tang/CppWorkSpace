@@ -1,5 +1,9 @@
 {
     "files.associations": {
+<<<<<<< HEAD
+=======
+        "iostream": "cpp",
+>>>>>>> 15543f1a1417205d5a38bf60c05e09e1f2904272
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -16,10 +20,18 @@
         "cstdint": "cpp",
         "cstdio": "cpp",
         "cstdlib": "cpp",
+<<<<<<< HEAD
+=======
+        "cstring": "cpp",
+>>>>>>> 15543f1a1417205d5a38bf60c05e09e1f2904272
         "ctime": "cpp",
         "cwchar": "cpp",
         "cwctype": "cpp",
         "deque": "cpp",
+<<<<<<< HEAD
+=======
+        "map": "cpp",
+>>>>>>> 15543f1a1417205d5a38bf60c05e09e1f2904272
         "string": "cpp",
         "unordered_map": "cpp",
         "vector": "cpp",
@@ -42,7 +54,10 @@
         "initializer_list": "cpp",
         "iomanip": "cpp",
         "iosfwd": "cpp",
+<<<<<<< HEAD
         "iostream": "cpp",
+=======
+>>>>>>> 15543f1a1417205d5a38bf60c05e09e1f2904272
         "istream": "cpp",
         "limits": "cpp",
         "new": "cpp",

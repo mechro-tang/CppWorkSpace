@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/FTXUI-5.0.0",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.FTXUI-5.0.0-Release-a0145b3921a9f6dba814.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/FTXUI-5.0.0",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "lib/FTXUI-5.0.0/examples",
+					"jsonFile" : "directory-lib.FTXUI-5.0.0.examples-Release-cd273a37e28dbaec89b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/FTXUI-5.0.0/examples"
+				},
+				{
+					"build" : "lib/FTXUI-5.0.0/doc",
+					"jsonFile" : "directory-lib.FTXUI-5.0.0.doc-Release-9e656c364bdae1eba847.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/FTXUI-5.0.0/doc"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EmulateDPU",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "ftxui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EmulateDPU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EmulateDPU-Release-029a0f46ad420352efc4.json",
+					"name" : "EmulateDPU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "component::@073ae315f57cd8a49ef8",
+					"jsonFile" : "target-component-Release-d3cb8f83d8f328816b4b.json",
+					"name" : "component",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dom::@073ae315f57cd8a49ef8",
+					"jsonFile" : "target-dom-Release-24cfe4986896328d0aea.json",
+					"name" : "dom",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "screen::@073ae315f57cd8a49ef8",
+					"jsonFile" : "target-screen-Release-7bcc768f42dfc325611e.json",
+					"name" : "screen",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/workspace/CppWorkSpace/SimulateDpu/build",
+		"source" : "E:/workspace/CppWorkSpace/SimulateDpu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
