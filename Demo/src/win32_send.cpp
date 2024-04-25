@@ -1,17 +1,20 @@
+/*
+* 
+*/
 #include <iostream>
 #include <windows.h>
-#include <tlhelp32.h> // ±ØÒªµÄÍ·ÎÄ¼şÓÃÓÚ±éÀú½ø³ÌÁĞ±í
+#include <tlhelp32.h> // å¿…è¦çš„å¤´æ–‡ä»¶ç”¨äºéå†è¿›ç¨‹åˆ—è¡¨
 //#include <afx.h>
 
-// º¯ÊıÉùÃ÷
+// å‡½æ•°å£°æ˜
 HWND GetConsoleWindowHandle(const wchar_t* processName);
 bool SendMessageToProcess(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8); // ÉèÖÃ¿ØÖÆÌ¨Êä³öÎª UTF-8 ×Ö·û¼¯
-    const wchar_t* targetProcessName = L"receive.exe"; // Ä¿±ê½ø³ÌÃû³Æ
+    SetConsoleOutputCP(CP_UTF8); // è®¾ç½®æ§åˆ¶å°è¾“å‡ºä¸º UTF-8 å­—ç¬¦é›†
+    const wchar_t* targetProcessName = L"receive.exe"; // ç›®æ ‡è¿›ç¨‹åç§°
     std::wcout << L"START " << targetProcessName << std::endl;
-    // »ñÈ¡Ä¿±ê½ø³ÌµÄ´°¿Ú¾ä±ú
+    // è·å–ç›®æ ‡è¿›ç¨‹çš„çª—å£å¥æŸ„
     HWND hWnd = GetConsoleWindowHandle(targetProcessName);
 
     if (hWnd == NULL) {
@@ -19,37 +22,37 @@ int main() {
         return 1;
     }
 
-    // ÏòÄ¿±ê½ø³Ì·¢ËÍÏûÏ¢
+    // å‘ç›®æ ‡è¿›ç¨‹å‘é€æ¶ˆæ¯
     if (!SendMessageToProcess(hWnd, WM_COPYDATA, 0, 0)) {
-        std::cerr << "·¢ËÍÏûÏ¢Ê§°Ü¡£" << std::endl;
+        std::cerr << "å‘é€æ¶ˆæ¯å¤±è´¥ã€‚" << std::endl;
         return 1;
     }
 
-    std::cout << "ÏûÏ¢ÒÑ³É¹¦·¢ËÍµ½Ä¿±ê½ø³Ì¡£" << std::endl;
+    std::cout << "æ¶ˆæ¯å·²æˆåŠŸå‘é€åˆ°ç›®æ ‡è¿›ç¨‹ã€‚" << std::endl;
 
     return 0;
 }
 
 HWND GetConsoleWindowHandle(const wchar_t* processName) {
-    // ´´½¨Ò»¸ö¿ìÕÕ£¬»ñÈ¡ÏµÍ³ÖĞËùÓĞ½ø³ÌµÄĞÅÏ¢
+    // åˆ›å»ºä¸€ä¸ªå¿«ç…§ï¼Œè·å–ç³»ç»Ÿä¸­æ‰€æœ‰è¿›ç¨‹çš„ä¿¡æ¯
     HANDLE hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
     if (hSnapshot == INVALID_HANDLE_VALUE) {
         std::wcout << "cn not get Snapshot" << std::endl;
         return NULL;
     }
 
-    // ±éÀú½ø³ÌÁĞ±í£¬²éÕÒÄ¿±ê¿ØÖÆÌ¨³ÌĞòµÄ½ø³Ì
+    // éå†è¿›ç¨‹åˆ—è¡¨ï¼ŒæŸ¥æ‰¾ç›®æ ‡æ§åˆ¶å°ç¨‹åºçš„è¿›ç¨‹
     PROCESSENTRY32 pe;
     pe.dwSize = sizeof(PROCESSENTRY32);
     BOOL bResult = Process32First(hSnapshot, &pe);
     while (bResult) {
         std::wcout << L"compare with [" << pe.szExeFile << L"] - [" << processName << L"]" << std::endl;
         if (wcsncmp((wchar_t*)pe.szExeFile, (wchar_t*)processName, wcslen(processName)) == 0) {
-            // ÕÒµ½Ä¿±ê½ø³Ì£¬»ñÈ¡ÆäÖ÷Ä£¿é¾ä±ú
+            // æ‰¾åˆ°ç›®æ ‡è¿›ç¨‹ï¼Œè·å–å…¶ä¸»æ¨¡å—å¥æŸ„
             std::wcout << "find target process" << std::endl;
             HANDLE hProcess = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, FALSE, pe.th32ProcessID);
             if (hProcess != NULL) {
-                // »ñÈ¡½ø³ÌµÄ¿ØÖÆÌ¨´°¿Ú¾ä±ú
+                // è·å–è¿›ç¨‹çš„æ§åˆ¶å°çª—å£å¥æŸ„
                 HWND hWnd = GetConsoleWindow();
                 CloseHandle(hProcess);
                 return hWnd;
@@ -59,11 +62,11 @@ HWND GetConsoleWindowHandle(const wchar_t* processName) {
     }
 
     CloseHandle(hSnapshot);
-    return NULL; // Ã»ÓĞÕÒµ½Æ¥ÅäµÄ¿ØÖÆÌ¨´°¿Ú¾ä±ú
+    return NULL; // æ²¡æœ‰æ‰¾åˆ°åŒ¹é…çš„æ§åˆ¶å°çª—å£å¥æŸ„
 }
 
 bool SendMessageToProcess(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
-    // Ïò´°¿Ú·¢ËÍÏûÏ¢
+    // å‘çª—å£å‘é€æ¶ˆæ¯
     LRESULT result = SendMessage(hWnd, msg, wParam, lParam);
     return (result != 0);
 }
@@ -74,14 +77,14 @@ bool SendMessageToProcess(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 // #include <windows.h>
 
 // int main() {
-//     HWND hWnd = FindWindow((LPCWSTR)NULL, (LPCSTR) L"receive"); // ¸ù¾İ±êÌâÕÒµ½½ÓÊÕÏûÏ¢µÄ¿ØÖÆÌ¨³ÌĞòµÄ´°¿Ú¾ä±ú
+//     HWND hWnd = FindWindow((LPCWSTR)NULL, (LPCSTR) L"receive"); // æ ¹æ®æ ‡é¢˜æ‰¾åˆ°æ¥æ”¶æ¶ˆæ¯çš„æ§åˆ¶å°ç¨‹åºçš„çª—å£å¥æŸ„
 
 //     if (hWnd == NULL) {
 //         std::cerr << "Failed to find window." << std::endl;
 //         return 1;
 //     }
 
-//     // Ê¹ÓÃ PostMessage ÏòÄ¿±ê´°¿Ú·¢ËÍÏûÏ¢
+//     // ä½¿ç”¨ PostMessage å‘ç›®æ ‡çª—å£å‘é€æ¶ˆæ¯
 //     if (!PostMessage(hWnd, WM_USER, 0, 0)) {
 //         std::cerr << "Failed to send message." << std::endl;
 //         return 1;
