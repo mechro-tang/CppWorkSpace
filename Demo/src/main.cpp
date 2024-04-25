@@ -1,5 +1,4 @@
-#include <iostream>     // in/out stream
-#include "Singleton.hpp"
+#include <iostream>
 
 int main()
 {

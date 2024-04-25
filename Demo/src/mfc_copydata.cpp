@@ -1,3 +1,4 @@
+#ifdef _WIN32
 #include <afxwin.h>
 #include <iostream>
 
@@ -51,3 +52,16 @@ int main() {
     // 运行控制台应用程序的消息循环
     return theApp.Run();
 }
+#elif __APPLE__
+
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+#endif
+
+

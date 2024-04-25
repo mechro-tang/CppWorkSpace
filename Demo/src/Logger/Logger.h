@@ -13,7 +13,7 @@
 #include <mutex>
 #include <thread>
 #include <chrono>
-#include "Singleton.hpp"
+#include "../Utility/Singleton.hpp"
 
 #define system_time_point std::chrono::system_clock::time_point
 

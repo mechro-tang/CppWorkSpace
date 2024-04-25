@@ -1,6 +1,8 @@
 /*
 * 
 */
+#ifdef _WIN32
+
 #include <iostream>
 #include <windows.h>
 #include <tlhelp32.h> // 必要的头文件用于遍历进程列表
@@ -94,3 +96,4 @@ bool SendMessageToProcess(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) {
 
 //     return 0;
 // }
+#endif

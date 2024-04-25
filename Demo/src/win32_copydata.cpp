@@ -1,6 +1,9 @@
-#include <windows.h>
+
 #include <iostream>
 
+#ifdef _WIN32
+
+#include <windows.h>
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 int main() {
@@ -54,3 +57,4 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
     }
     return 0;
 }
+#endif

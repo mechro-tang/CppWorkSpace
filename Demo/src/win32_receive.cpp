@@ -1,3 +1,4 @@
+#ifdef _WIN32
 // #include <iostream>
 // #include <windows.h>
 
@@ -135,3 +136,5 @@ int main() {
 
     return 0;
 }
+
+#endif
